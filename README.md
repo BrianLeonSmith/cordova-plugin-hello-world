@@ -1,4 +1,4 @@
-# cordova-plugin-hello-world
+# cordova-plugin-ios-hello-world
 
 This plugin can be used as a base for ios plugin development.
 
@@ -7,13 +7,13 @@ This plugin can be used as a base for ios plugin development.
 #### Latest published version on npm
 
 ```
-cordova plugin add cordova-plugin-hello-world
+cordova plugin add cordova-plugin-ios-hello-world
 ```
 
 #### Latest version from GitHub
 
 ```
-cordova plugin add https://github.com/BrianLeonSmith/cordova-plugin-hello-world.git
+cordova plugin add https://github.com/BrianLeonSmith/cordova-plugin-ios-hello-world.git
 ```
 
 ## Usage
