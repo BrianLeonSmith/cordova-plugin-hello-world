@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-hello-world" version="0.0.1">
+    <name>Hello World</name>
+    <author>Brian Leon Smith (https://madebyleon.app/)</author>
+    <description>Cordova Hello World Plugin to act as a base for ios plugin development.</description>
+    <keywords>cordova, plugin, ecosystem:cordova, cordova-ios</keywords>
+    <license>MIT</license>
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines>
+    <js-module src="www/helloworld.js" name="HelloWorld">
+        <clobbers target="helloworld" />
+    </js-module>
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="HelloWorld">
+                <param name="ios-package" value="HelloWorld" />
+            </feature>
+        </config-file>
+        <header-file src="src/ios/HelloWorld.h" />
+        <source-file src="src/ios/HelloWorld.m" />
+    </platform>
+</plugin>
