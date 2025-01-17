@@ -25,6 +25,7 @@
 
 
 
+#import <Cordova/CDVPlugin.h>
 #import "HelloWorld.h"
 
 @implementation HelloWorld

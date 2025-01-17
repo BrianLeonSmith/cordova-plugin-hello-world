@@ -21,11 +21,6 @@ var exec = require('cordova/exec'); // Import the exec method for native communi
  */
 var HelloWorld = {
     testFunction: function (successCallback, errorCallback, message) {
-        // Validate arguments if necessary
-        if (typeof message !== 'string') {
-            throw new Error('Message must be a string');
-        }
-
         // Use cordova.exec to communicate with the native code
         exec(
             successCallback,
