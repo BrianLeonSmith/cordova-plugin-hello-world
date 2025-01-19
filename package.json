@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-ios-hello-world",
-  "version": "0.0.3",
+  "version": "0.0.6",
   "author": "Brian Leon Smith <hello@brianleonsmith.com> (https://madebyleon.app/)",
   "description": "Cordova Hello World Plugin to act as a base for ios plugin development.",
   "cordova": {
@@ -19,10 +19,6 @@
     "ecosystem:cordova",
     "cordova-ios"
   ],
-  "engines": {
-    "cordova": ">=10.0.0",
-    "cordova-ios": ">=5.0.0"
-  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/BrianLeonSmith/cordova-plugin-ios-hello-world/issues"

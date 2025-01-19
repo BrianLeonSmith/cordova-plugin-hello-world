@@ -1,34 +1,13 @@
-
-// var exec = require("cordova/exec");
-
-// var HelloWorld = function () {
-//     this.name = "HelloWorld";
-// };
-
-// HelloWorld.prototype.testFunction = function (success, failure) {
-//     exec(success, failure, "HelloWorld", "testFunction", [data]);
-// };
-
-// module.exports = new HelloWorld();
-
-
-
 // Define the module using Cordova's module system
 var exec = require('cordova/exec'); // Import the exec method for native communication
 
 /**
- * MyPlugin: A simple example plugin for Cordova
+ * HelloWorld: A simple example plugin for Cordova
  */
 var HelloWorld = {
     testFunction: function (successCallback, errorCallback, message) {
         // Use cordova.exec to communicate with the native code
-        exec(
-            successCallback,
-            errorCallback,
-            'HelloWorld',
-            'testFunction',
-            [message]
-        );
+        exec(successCallback, errorCallback, 'HelloWorld', 'testFunction', [message]);
     }
 };
 

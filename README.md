@@ -2,6 +2,8 @@
 
 This plugin can be used as a base for ios plugin development.
 
+#### ⚠️ Please note this is a work in progress and may not work as intended
+
 ## Install
 
 #### Latest published version on npm
@@ -31,7 +33,7 @@ var failureCallback = (err) => {
     alert("Error: " + err);
 };
 
-helloworld.testFunction(successCallback, failureCallback, "Hello World");
+HelloWorld.testFunction(successCallback, failureCallback, "Hello World");
 ```
 
 ## Platforms
